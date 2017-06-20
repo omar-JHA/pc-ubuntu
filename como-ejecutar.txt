@@ -1,0 +1,12 @@
+para ejecutar VIS primer tutorial
+
+python ./vis.py -i plan.jpg -o ./foto -r results.txt -D 'print'
+
+asi imprimi las imagenes de la planta  aunque en realidad 
+deberia ser asi:
+
+python ./vis.py -i plan.jpg -o ./foto -r results.txt -w -D 'print'
+
+para ejecutar NIR
+python NIR.py -i /home/kubeet/pruebas/tutoriales/original_image.jpg -o /home/kubeet/pruebas/tutoriales/image -D
+
