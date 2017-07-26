@@ -10,3 +10,9 @@ python ./vis.py -i plan.jpg -o ./foto -r results.txt -w -D 'print'
 para ejecutar NIR
 python NIR.py -i /home/kubeet/pruebas/tutoriales/original_image.jpg -o /home/kubeet/pruebas/tutoriales/image -D
 
+python NIR.py -i /home/kubeet/pruebas/tutoriales/original_image.jpg -o /home/kubeet/pruebas/tutoriales/image/ -D 
+
+
+PSII
+python psii.py -i1 Fdark.jpg -i2 Fmin.jpg -i3 Fmax.jpg -m mask.jpg -o /image -D 
+
